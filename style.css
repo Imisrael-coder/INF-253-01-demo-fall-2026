@@ -1,5 +1,5 @@
 body {
-    background: rgb(83, 163, 154);
+    background: rgb(65, 130, 123);
 }
 
 h1 {
@@ -28,4 +28,36 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
+}
+
+ul li {
+    color: rgb(213, 190, 194);
+}
+
+a {
+    color: rgb(213, 190, 194);
+}
+
+
+.about-section {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(12, 14, 14);
+    border: 2px solid white;
+}
+
+
+.card {
+    border-radius: 10px;
+}
+
+#about-me {
+    height: 250px;
+    border-color: rgb(213, 190, 194);
+}
+
+#career-goals {
+    height: 600px;
+    border-color: white;
 }
