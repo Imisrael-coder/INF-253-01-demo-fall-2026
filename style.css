@@ -70,13 +70,13 @@ nav {
 
 nav a {
   color: white;
-  background-color: #750b2e;
+  background-color: #630717;
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 5px;
 }
 
 nav a:hover {
-  background-color: #600830;
+  background-color: #a78a8a;
 }
 
