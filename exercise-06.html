@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Programs</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1>Library Programs</h1>
+    <h2>Upcoming Programs</h2>
+
+<table>
+    <caption>Upcoming Library Programs</caption>
+
+    <thead>
+        <tr>
+            <th scope="col">Program</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Location</th>
+            <th scope="col">Audience</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Community Book Club</td>
+            <td>Oct. 8</td>
+            <td>6:30 PM</td>
+            <td>Room A</td>
+            <td>Adults</td>
+        </tr>
+
+        <tr>
+            <td>Family Story Time</td>
+            <td>Oct. 10</td>
+            <td>10:00 AM</td>
+            <td>Children's Room</td>
+            <td>Families</td>
+        </tr>
+
+        <tr>
+            <td>Genealogy Workshop</td>
+            <td>Oct. 12</td>
+            <td>2:00 PM</td>
+            <td>Room B</td>
+            <td>Adults</td>
+        </tr>
+
+        <tr>
+            <td>Intro to 3D Printing</td>
+            <td>Oct. 15</td>
+            <td>6:00 PM</td>
+            <td>Makerspace</td>
+            <td>Teens &amp; Adults</td>
+        </tr>
+
+        <tr>
+            <td>Local History Talk</td>
+            <td>Oct. 18</td>
+            <td>1:00 PM</td>
+            <td>Auditorium</td>
+            <td>Everyone</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+
+<h2>Register for a Program</h2>
+
+<form>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="program">Program:</label>
+    <select id="program" name="program">
+        <option value="">Select a program</option>
+        <option value="book-club">Community Book Club</option>
+        <option value="story-time">Family Story Time</option>
+        <option value="genealogy">Genealogy Workshop</option>
+        <option value="3d-printing">Intro to 3D Printing</option>
+        <option value="history">Local History Talk</option>
+    </select>
+
+    <p>Attendance:</p>
+
+    <label>
+        <input type="radio" name="attendance" value="in-person">
+        In person
+    </label>
+
+    <label>
+        <input type="radio" name="attendance" value="online">
+        Online
+    </label>
+
+    <br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+</html>
