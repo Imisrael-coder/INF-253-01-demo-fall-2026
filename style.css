@@ -80,3 +80,157 @@ nav a:hover {
   background-color: #a78a8a;
 }
 
+
+.library-page {
+    margin: 0;
+    background: rgb(65, 130, 123);
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+.library-page header,
+.library-page footer {
+    background: rgb(12, 14, 14);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.library-page h1 {
+    color: white;
+}
+
+.library-page h2 {
+    color: rgb(213, 190, 194);
+}
+
+.library-page h3 {
+    color: white;
+}
+
+.library-page p {
+    color: white;
+}
+
+.library-page main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.library-page .programs,
+.library-page .registration,
+.library-page .information {
+    background: rgb(12, 14, 14);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.library-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.library-page th,
+.library-page td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.library-page th {
+    background: #630717;
+    color: white;
+}
+
+.library-page tbody tr:hover {
+    background: #a78a8a;
+    color: white;
+}
+
+.library-page .lower-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.library-page .registration {
+    flex: 2 1 350px;
+}
+
+.library-page .information {
+    flex: 1 1 220px;
+    background: rgb(12, 14, 14);
+}
+
+.library-page .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.library-page input[type="text"],
+.library-page input[type="email"],
+.library-page select {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.library-page fieldset {
+    margin-bottom: 15px;
+}
+
+.library-page input:focus,
+.library-page select:focus {
+    outline: 2px solid #245b49;
+    outline-offset: 2px;
+}
+
+.library-page button {
+    background: #630717;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.library-page button:hover {
+    background: #a78a8a;
+}
+
+.library-page button:focus-visible {
+    outline: 3px solid #b7791f;
+    outline-offset: 3px;
+}
+
+.library-page footer p {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .library-page main {
+        padding: 0 12px;
+    }
+
+    .library-page .lower-content {
+        flex-direction: column;
+    }
+
+    .library-page .programs {
+        overflow-x: auto;
+    }
+
+    .library-page table {
+        min-width: 600px;
+    }
+}
