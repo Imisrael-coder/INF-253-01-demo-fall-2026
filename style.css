@@ -233,4 +233,14 @@ nav a:hover {
     .library-page table {
         min-width: 600px;
     }
+
+    .library-page h1 {
+        font-size: 32px;
+    }
+
+    .library-page th,
+    .library-page td {
+        padding: 6px;
+    }
+
 }
